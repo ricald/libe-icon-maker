@@ -14,6 +14,7 @@ function context() {
 test('presets and filenames are 500px _s and 200px _ss', () => {
   assert.equal(OUTPUT_PRESETS.libecity.size, 500);
   assert.equal(OUTPUT_PRESETS.ovice.size, 200);
+  assert.equal(OUTPUT_PRESETS.ovice.label, 'ovice');
   assert.equal(outputFilename('libecity'), 'profile_icon_s.png');
   assert.equal(outputFilename('ovice'), 'profile_icon_ss.png');
 });

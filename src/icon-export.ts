@@ -4,7 +4,7 @@ export const MAX_OUTPUT_BYTES = 2_000_000;
 export const MAX_INPUT_BYTES = 20_000_000;
 export const OUTPUT_PRESETS = {
   libecity: { label: 'リベシティ', size: 500, suffix: '_s' },
-  ovice: { label: 'oVice', size: 200, suffix: '_ss' },
+  ovice: { label: 'ovice', size: 200, suffix: '_ss' },
 } as const;
 
 export type OutputTarget = keyof typeof OUTPUT_PRESETS;

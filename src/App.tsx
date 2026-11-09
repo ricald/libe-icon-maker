@@ -262,9 +262,9 @@ export default function App() {
           <h1 className="text-lg sm:text-2xl whitespace-nowrap font-bold text-gray-800 tracking-tight">リベアイコンメーカー</h1>
         </div>
 
-        <p className="text-center text-blue-700 font-semibold mb-2">リベシティ・oVice向け</p>
+        <p className="text-center text-blue-700 font-semibold mb-2">リベシティ・ovice向け</p>
         <p className="text-sm text-gray-600 leading-relaxed text-center mb-6">
-          リベシティとoViceで使うアイコンを、同じ画像から作れます。位置と大きさを調整して、2種類のPNGを保存できます。<br />
+          リベシティとoviceで使うアイコンを、同じ画像から作れます。位置と大きさを調整して、2種類のPNGを保存できます。<br />
           画像は端末内で処理し、サーバーへ送信しません。
         </p>
 
@@ -383,18 +383,18 @@ export default function App() {
         </div>
         {status && <p role="status" className="mt-4 rounded-xl bg-green-50 p-3 text-sm text-green-800">{status}</p>}
         <div className="mt-5 rounded-xl bg-blue-50 p-4 text-sm text-blue-900 leading-relaxed">
-          <p className="font-semibold">リベシティ内のoViceでは、同じ画像を</p>
+          <p className="font-semibold">リベシティ内のoviceでは、同じ画像を</p>
           <p className="mt-1">リベシティのプロフィールと同じ画像の設定が必須です。位置・大きさ・形を変えずに、両方のボタンから保存してください。</p>
         </div>
         <details className="mt-5 text-xs text-gray-600 leading-relaxed">
           <summary className="cursor-pointer text-sm font-medium">仕様と公式情報</summary>
           <ul className="mt-3 space-y-2 list-disc pl-4">
             <li>リベシティは500×500pxを公式推奨。<a className="text-blue-700 underline" href="https://faq.libecity.com/articles/32a97b4ea36723f32d29a76e5c57a06ca11a84d5" target="_blank" rel="noreferrer">公式FAQ</a></li>
-            <li>oViceの公式仕様表は200×200px・JPG/PNG・2MB。200pxが必須かは明記されていません。<a className="text-blue-700 underline" href="https://help.ovice.com/hc/ja/articles/16134945119641" target="_blank" rel="noreferrer">公式仕様表</a></li>
-            <li>リベシティ内のoViceではプロフィールと同じ画像が必須。<a className="text-blue-700 underline" href="https://faq.libecity.com/articles/426ddbe6ed773be04f54d203a33e9077940a1488" target="_blank" rel="noreferrer">利用ルール</a></li>
+            <li>oviceの公式仕様表は200×200px・JPG/PNG・2MB。200pxが必須かは明記されていません。<a className="text-blue-700 underline" href="https://help.ovice.com/hc/ja/articles/16134945119641" target="_blank" rel="noreferrer">公式仕様表</a></li>
+            <li>リベシティ内のoviceではプロフィールと同じ画像が必須。<a className="text-blue-700 underline" href="https://faq.libecity.com/articles/426ddbe6ed773be04f54d203a33e9077940a1488" target="_blank" rel="noreferrer">利用ルール</a></li>
           </ul>
           <p className="mt-3">本ツールはどちらもPNGで出力し、保存前に実容量が2,000,000バイト以下か検査します。リベシティ側の対応形式・容量上限は、現在のプロフィール編集画面で未確認です。読み込み上限20 MBは本ツール独自の制限です。</p>
-          <p className="mt-2">仕様確認：2026年11月7日。リベシティ・oViceの公式ツールではありません。</p>
+          <p className="mt-2">仕様確認：2026年11月7日。リベシティ・oviceの公式ツールではありません。</p>
         </details>
 
       </div>
